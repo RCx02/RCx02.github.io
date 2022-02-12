@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  text-align: center;
+
+  font-family: 'Times New Roman', serif;
+}
+p {
+  color: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
